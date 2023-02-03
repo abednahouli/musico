@@ -101,7 +101,6 @@ client.on("interactionCreate", async (interaction) => {
     const track = await player
       .search(query, {
         requestedBy: interaction.user,
-        searchEngine: 2,
       })
       .then((x) => x.tracks[0]);
     if (!track)
