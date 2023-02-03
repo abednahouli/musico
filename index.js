@@ -17,7 +17,7 @@ const commands = [
 ];
 
 const rest = new REST({ version: "10" }).setToken(
-  "MTA3MDg2MTEyODk0ODc5NzQ1MA.G9l_k7.m_o0AqfkSjDZh7WlU-fO-QQtHwiOutDz1oXSvU"
+  "MTA3MDg2MTEyODk0ODc5NzQ1MA.GK-yuF.jTGSzWCoJEl92f40xwgvE5xIX6ZOveeI1nx_Iw"
 );
 
 (async () => {
@@ -118,5 +118,5 @@ client.on("interactionCreate", async (interaction) => {
 });
 
 client.login(
-  "MTA3MDg2MTEyODk0ODc5NzQ1MA.G9l_k7.m_o0AqfkSjDZh7WlU-fO-QQtHwiOutDz1oXSvU"
+  "MTA3MDg2MTEyODk0ODc5NzQ1MA.GK-yuF.jTGSzWCoJEl92f40xwgvE5xIX6ZOveeI1nx_Iw"
 );
